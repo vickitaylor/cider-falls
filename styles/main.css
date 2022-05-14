@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 3px;
+}
+
+.header-img {
+  height: 25%;
+  width: auto;
+  margin: 5px;
+}
+
+.header {
+  display: inline-block;
+  position: absolute;
+  font-size: 4rem;
+  margin: 25;
+  color: #4B0082;
+
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  letter-spacing: 1.5px;
+  color: #22577a;
+}
+
+body{ 
+  background-color: #74c69d;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.services {
+  font-family: 'Boogaloo', cursive;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  padding: 3rem;
+  font-size: 1.5rem;
+  color: #22577a;
+}
+
+.parks_guests { 
+  display: flex;
+  flex-direction: row;
+}
+
+.parks { 
+  display: flex;
+  display: grid;
+  grid: 250px / auto auto auto;
+}
+
+.park--card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1.5em;
+  border-radius: 1rem;
+  border: 3px dotted #22577a;
+  padding: 1rem;
+  width: 250px;
+  height: 200px;
+  background-color: #d8f3dc;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.guest-list { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d8f3dc;
+  border: 3px dotted #22577a;
+  border-radius: 1rem;
+  line-height: 1.6;
+  padding: 1rem;
+  width: 300px;
+}
+
+.contact-us { 
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
